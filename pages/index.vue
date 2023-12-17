@@ -3,6 +3,7 @@
   <eye/>
   <hand/>
   <card/>
+  <contact/>
   </div>
 </template>
 

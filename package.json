@@ -16,6 +16,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@harv46/valid-input": "^0.0.6",
     "@nuxt/image": "^1.1.0",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "daisyui": "^4.4.19",
