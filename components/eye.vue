@@ -26,7 +26,7 @@
         <img
         style="width: 500px; height: 300px"
         class="mr-10"
-        src="../public/capture.png"
+        src="../public/capture.jpg"
       />
       <div id="eyes" class=" relative rounded-full bg-black w-24 h-24 -top-48 left-36"></div>
      </div>

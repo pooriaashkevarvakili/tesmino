@@ -7,7 +7,7 @@
   >
 <div>
   <div id="eyes" class=" relative rounded-full left-7 bg-black w-4 h-4 "></div>
-    <div><img  style="width: 40px; height: 50px" src="../public/capture.png"/>
+    <div><img  style="width: 40px; height: 50px" src="../public/capture.jpg"/>
 </div>
     <div class="ml-3">Knowledgeducation</div>
     </div>

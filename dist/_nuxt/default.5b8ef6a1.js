@@ -1,0 +1,1 @@
+import t from"./Navbar.6c07ff41.js";import e from"./Footer.acc9d951.js";import{v as o,z as r,t as a}from"./entry.7fb2da84.js";import"./capture.a38c7684.js";import"./hand-0.e235a4c8.js";const f={__name:"default",setup(m){return(p,c)=>(a(),o("div",null,[r(t),r(e)]))}};export{f as default};
