@@ -1,0 +1,68 @@
+
+@font-face {
+    font-style: normal;
+    font-weight: bold;
+
+    src: url("./fonts/Righteous-Regular.woff");
+    src: url("./fonts/Righteous-Regular.woff"),
+      url("./fonts/Righteous-Regular.woff") format("woff2"),
+      url("./fonts/Righteous-Regular.woff") format("woff"),
+      url("./fonts/Righteous-Regular.woff") format("truetype");
+  }
+  @font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Righteous-Regular.woff")
+        format("woff2"),
+      url("./fonts/Righteous-Regular.woff") format("woff"),
+      url("./fonts/Righteous-Regular.woff") format("ttf");
+  }
+  @font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("./fonts/Righteous-Regular.woff");
+    src: url("./fonts/Righteous-Regular.woff") format("eot"),
+      url("./fonts/Righteous-Regular.woff") format("woff2"),
+      url("./fonts/Righteous-Regular.woff") format("woff"),
+      url("./fonts/Righteous-Regular.woff") format("ttf");
+  }
+  @font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 200;
+    src: url("./fonts/Righteous-Regular.woff");
+    src: url("./fonts/Righteous-Regular.woff")
+        format("eot"),
+      url("./fonts/Righteous-Regular.woff")
+        format("woff2"),
+      url("./fonts/Righteous-Regular.woff") format("woff"),
+      url("./fonts/Righteous-Regular.woff") format("ttf");
+  }
+  @font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/Righteous-Regular.woff") format("woff2"),
+      url("./fonts/Righteous-Regular.woff") format("woff"),
+      url("./fonts/Righteous-Regular.woff") format("ttf");
+  }
+  @font-face {
+    font-family: "IRANSans-Standard";
+    src: url("./fonts/Righteous-Regular.woff");
+    src: url("./fonts/Righteous-Regular.woff") format("eot"),
+      url("./fonts/Righteous-Regular.woff") format("woff2"),
+      url("./fonts/Righteous-Regular.woff") format("woff"),
+      url("./fonts/Righteous-Regular.woff") format("ttf"),
+      url("./fonts/Righteous-Regular.woff") format("svg");
+    font-weight: 300;
+    font-style: normal;
+  }
+  .Righteous-Regular {
+    font-family: "Righteous-Regular";
+  }
+  body {
+    font-family: "Righteous-Regular";
+  }
+  

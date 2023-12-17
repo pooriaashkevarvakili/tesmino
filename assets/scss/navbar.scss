@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+#app {
+height:840px
+  // height: 350vh;
+  /* background: hsl(200, 50%, 90%) */
+}
+
+.navbar {
+  margin-top: 40px;
+  border-radius: 20px;
+  height: 60px;
+  width: 960px;
+  background: #fff;
+  position: fixed;
+  box-shadow: 0 2px 15px rgba(71, 120, 120, 0.5);
+  transform: translate3d(0, 0, 0);
+  transition: 0.1s all ease-out;
+}
+
+.navbar.hidden-navbar {
+  width: 1500px;
+
+}
+
+.message {
+  position: fixed;
+  left: 50vw;
+  top: calc(50vh + 60px);
+  transform: translate(-50%, -50%);
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 5vw;
+  text-align: center;
+  color: hsl(200, 50%, 60%);
+  font-weight: bold;
+}
+
+.arrow {
+  width: 7.5vw;
+  height: 7.5vw;
+}
+
+.arrow path {
+  fill: hsl(200, 50%, 50%);
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: 0.1s all ease-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+@media (max-width: 900px) {
+  .message {
+    font-size: 7vw;
+  }
+
+  .arrow {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .message {
+    width: 90vw;
+    font-size: 10vw;
+  }
+
+  .arrow {
+    width: 15vw;
+    height: 15vw;
+  }
+}
