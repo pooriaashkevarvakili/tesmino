@@ -16,7 +16,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@harv46/valid-input": "^0.0.6",
     "@nuxt/image": "^1.1.0",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "axios": "^1.6.2",
@@ -24,7 +23,6 @@
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "scss": "^0.2.4",
-    "tailwindcss": "^3.3.6",
-    "vue-pattern-input": "^3.0.0"
+    "tailwindcss": "^3.3.6"
   }
 }
