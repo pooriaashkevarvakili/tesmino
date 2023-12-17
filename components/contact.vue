@@ -9,14 +9,12 @@
         <input class="border border-blue-400 w-full rounded-xl p-3" />
       </div>
       <div class="ml-24 flex-col">
-        <VInput
-          v-model="inputValue"
-          :minLength="24"
-          :maxLength="10"
-          :placeholder="email"
-          :validationType="`regex`"
-          :regex="/(^\s*$)|(^([\w.-]+)@([\w-]+)((\.(\w){2,3})+)$)/"
-          >email</VInput>
+        <form>
+            <div>email</div>
+            <input class="p-3 border-blue-400" v-model="inputValue" :pattern="regexPattern" type="text">
+            <p v-if="validationError">email eshtebah</p>
+        </form>
+      
       </div>
       <img class="w-64 ml-72" src="../public/contact.svg" />
     </div>
@@ -28,19 +26,35 @@
 </template>
 
 <script>
-import { VInput } from "@harv46/valid-input";
-import "@harv46/valid-input/dist/style.css";
 export default {
-  components: {
-    VInput,
-  },
   data() {
     return {
-      inputValue: "",
-    };
+      inputValue: '',
+      regexPattern: /(^\s*$)|(^([\w.-]+)@([\w-]+)((\.(\w){2,3})+)$)/ // Example regex pattern: only alphabetic characters
+    }
   },
-};
+  computed: {
+    validationError() {
+      return !this.regexPattern.test(this.inputValue);
+    }
+  },
+  methods: {
+    validateInput() {
+      if (this.validationError) {
+        // Handle invalid input
+        console.log('Invalid input! Please enter a valid value.');
+        return;
+      }
+
+      // Handle valid input
+      console.log('Input is valid:', this.inputValue);
+    }
+  }
+}
 </script>
+
+  
+
 
 <style>
 </style>
