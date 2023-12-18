@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: -880px" class="ml-10">
+  <div style="margin-top: -950px" class="ml-10">
   <eye/>
   <hand/>
   <card/>

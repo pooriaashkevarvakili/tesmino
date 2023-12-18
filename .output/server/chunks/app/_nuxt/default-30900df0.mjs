@@ -1,6 +1,6 @@
 import { ssrRenderAttrs, ssrRenderComponent } from 'vue/server-renderer';
-import Navbar from './Navbar-5fb49c7b.mjs';
-import Footer from './Footer-57844540.mjs';
+import Navbar from './Navbar-a02a4f52.mjs';
+import Footer from './Footer-baa6f7b5.mjs';
 import { useSSRContext } from 'vue';
 import '../server.mjs';
 import '../../nitro/node-server.mjs';
@@ -40,4 +40,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=default-996a5301.mjs.map
+//# sourceMappingURL=default-30900df0.mjs.map

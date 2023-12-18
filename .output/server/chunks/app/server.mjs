@@ -571,7 +571,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-c6847644.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-bb19a547.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -870,9 +870,9 @@ const plugins = [
   components_plugin_KR1HBZs4kY
 ];
 const layouts = {
-  footer: () => import('./_nuxt/Footer-57844540.mjs').then((m) => m.default || m),
-  navbar: () => import('./_nuxt/Navbar-5fb49c7b.mjs').then((m) => m.default || m),
-  default: () => import('./_nuxt/default-996a5301.mjs').then((m) => m.default || m)
+  footer: () => import('./_nuxt/Footer-baa6f7b5.mjs').then((m) => m.default || m),
+  navbar: () => import('./_nuxt/Navbar-a02a4f52.mjs').then((m) => m.default || m),
+  default: () => import('./_nuxt/default-30900df0.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

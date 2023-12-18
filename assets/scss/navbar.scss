@@ -5,9 +5,7 @@
 
 
 #app {
-height:840px
-  // height: 350vh;
-  /* background: hsl(200, 50%, 90%) */
+  height: 900px
 }
 
 .navbar {
@@ -50,11 +48,13 @@ height:840px
   fill: hsl(200, 50%, 50%);
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: 0.1s all ease-out;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
